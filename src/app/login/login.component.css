@@ -1,0 +1,10 @@
+.sign-in-form {
+  margin-top: 15%;
+  margin-bottom: 15%;
+  width: 40%;
+}
+
+.forgot-password {
+  font-size: smaller;
+  text-decoration: none;
+}

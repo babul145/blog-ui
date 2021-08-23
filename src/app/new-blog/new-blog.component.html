@@ -1,0 +1,52 @@
+<div class="row">
+  <div class="col-2">
+    <img src="../../assets/images/logo_blog.PNG">
+  </div>
+  <div class="col-8">
+
+  </div>
+  <div class="col-2 text-end align-self-center">
+    <a href="#"><img class="rounded-circle" src="../../assets/images/profile.jpg" width="50px" height="50px"></a>
+  </div>
+</div><hr class="mt-2 mb-0">
+<div class="container mt-3">
+  <div class="row mb-4">
+    <div class="col-10">
+      <div class="">
+        <label for="title" class="form-label">Title</label>
+        <input type="text" class="form-control" id="title">
+      </div>
+    </div>
+    <div class="col-2 position-relative">
+      <button type="button" class="btn btn-success position-absolute bottom-0 start-0">Preview</button>
+      <button type="button" class="btn btn-success position-absolute bottom-0 end-0">Publish</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-10">
+      <ckeditor [editor]="editor"></ckeditor>
+    </div>
+    <div class="col-2">
+      <div class="row">
+        <div class="h4 text-muted">Blog settings</div>
+        <div class="text-dark fw-bold mt-4">Reader Comments</div>
+        <div class="card p-3">
+          <div class="row g-0">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Allow
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+                Do not allow
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+.create-account-form {
+  margin-top: 15%;
+  margin-bottom: 15%;
+  width: 50%;
+}
+
+.password-validation-text {
+  font-size: smaller;
+}
