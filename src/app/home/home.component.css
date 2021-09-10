@@ -63,3 +63,8 @@ a:hover {
 .b-bg-white-f2 {
   background-color: #F2F2F2;
 }
+
+.b-py-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
